@@ -17,14 +17,14 @@ function startApplicatoin() {
     return;
   }
 
-  let existingBtn = document.createElement("button");
-  existingBtn.id = "existing";
-  existingBtn.textContent = `Logged in as ${localData}`;
-  parent.appendChild(existingBtn);
+  //   let existingBtn = document.createElement("button");
+  //   existingBtn.id = "existing";
+  //   existingBtn.textContent = `Logged in as ${localData}`;
+  //   parent.appendChild(existingBtn);
 
-  existingBtn.addEventListener("click", function () {
-    alert(`Logged in as ${localData}`);
-  });
+  //   existingBtn.addEventListener("click", function () {
+  //     alert(`Logged in as ${localData}`);
+  //   });
 }
 
 startApplicatoin();
