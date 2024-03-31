@@ -8,11 +8,14 @@
   <body>
     <h1>Login Form</h1>
     <form action="post" id="form_holder">
-      <input type="text" id="username" placeholder="Username" /> <br />
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Username" />
+      <br />
+	  <label for="password">Password</label>
       <input type="password" id="password" placeholder="Password" /> <br />
       <input type="checkbox" id="checkbox" name="checkbox" />
       <label for="checkbox">Remember me</label><br />
-      <button id="submit" type="submit" value="Submit">Submit</button>
+      <input  type="submit" value="Submit">Submit</button>
     </form>
 
     <!-- the entire body must be written by student -->
